@@ -1,0 +1,76 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLOWED_HOSTS	aaco/settings.py	/^ALLOWED_HOSTS = [".goorm.io"]$/;"	v	line:28
+AUTH_PASSWORD_VALIDATORS	aaco/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v	line:88
+BASE_DIR	aaco/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v	line:16
+Comment	event/models.py	/^class Comment(models.Model):$/;"	c	line:16
+CommentForm	event/forms.py	/^class CommentForm(forms.ModelForm):$/;"	c	line:27
+DATABASES	aaco/settings.py	/^DATABASES = {$/;"	v	line:77
+DEBUG	aaco/settings.py	/^DEBUG = True$/;"	v	line:26
+EventConfig	event/apps.py	/^class EventConfig(AppConfig):$/;"	c	line:4
+INSTALLED_APPS	aaco/settings.py	/^INSTALLED_APPS = [$/;"	v	line:33
+LANGUAGE_CODE	aaco/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v	line:107
+MIDDLEWARE	aaco/settings.py	/^MIDDLEWARE = [$/;"	v	line:43
+Meta	event/forms.py	/^    class Meta:$/;"	c	line:28	class:CommentForm
+Meta	event/forms.py	/^    class Meta:$/;"	c	line:5	class:PostForm
+Migration	event/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c	line:7
+Post	event/models.py	/^class Post(models.Model):$/;"	c	line:3
+PostForm	event/forms.py	/^class PostForm(forms.ModelForm):$/;"	c	line:4
+ROOT_URLCONF	aaco/settings.py	/^ROOT_URLCONF = 'aaco.urls'$/;"	v	line:53
+SECRET_KEY	aaco/settings.py	/^SECRET_KEY = 'b2e^#9t=f8(#0=6zvdcwh6e4sy$4gqs)mo3kv&ow61j9fm@l*a'$/;"	v	line:23
+STATICFILES_DIRS	aaco/settings.py	/^STATICFILES_DIRS = [$/;"	v	line:123
+STATIC_URL	aaco/settings.py	/^STATIC_URL = '\/static\/'$/;"	v	line:121
+TEMPLATES	aaco/settings.py	/^TEMPLATES = [$/;"	v	line:55
+TIME_ZONE	aaco/settings.py	/^TIME_ZONE = 'UTC'$/;"	v	line:109
+USE_I18N	aaco/settings.py	/^USE_I18N = True$/;"	v	line:111
+USE_L10N	aaco/settings.py	/^USE_L10N = True$/;"	v	line:113
+USE_TZ	aaco/settings.py	/^USE_TZ = True$/;"	v	line:115
+WSGI_APPLICATION	aaco/settings.py	/^WSGI_APPLICATION = 'aaco.wsgi.application'$/;"	v	line:71
+__str__	event/models.py	/^    def __str__(self):$/;"	m	line:22	class:Comment	file:
+__str__	event/models.py	/^    def __str__(self):$/;"	m	line:9	class:Post	file:
+application	aaco/wsgi.py	/^application = get_wsgi_application()$/;"	v	line:16
+attrs	event/forms.py	/^                attrs={$/;"	v	line:11	class:PostForm.Meta
+attrs	event/forms.py	/^                attrs={$/;"	v	line:16	class:PostForm.Meta
+commentcreate	event/views.py	/^def commentcreate(request, post_id) :$/;"	f	line:30
+content	event/models.py	/^    content = models.CharField(max_length=200)$/;"	v	line:18	class:Comment
+content	event/models.py	/^    content = models.TextField()$/;"	v	line:5	class:Post
+created_at	event/models.py	/^    created_at = models.DateTimeField(auto_now_add=True)$/;"	v	line:19	class:Comment
+created_at	event/models.py	/^    created_at = models.DateTimeField(auto_now_add=True)$/;"	v	line:6	class:Post
+dependencies	event/migrations/0001_initial.py	/^    dependencies = [$/;"	v	line:11	class:Migration
+field	event/migrations/0001_initial.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='comments', to='event.Post'),$/;"	v	line:37	class:Migration
+fields	event/forms.py	/^        fields = ['content']$/;"	v	line:30	class:CommentForm.Meta
+fields	event/forms.py	/^        fields = ['title', 'content']$/;"	v	line:7	class:PostForm.Meta
+fields	event/migrations/0001_initial.py	/^            fields=[$/;"	v	line:17	class:Migration
+fields	event/migrations/0001_initial.py	/^            fields=[$/;"	v	line:26	class:Migration
+help	aaco/views.py	/^def help(request):$/;"	f	line:10
+host_mogakco	aaco/views.py	/^def host_mogakco(request):$/;"	f	line:13
+initial	event/migrations/0001_initial.py	/^    initial = True$/;"	v	line:9	class:Migration
+labels	event/forms.py	/^        labels = {$/;"	v	line:22	class:PostForm.Meta
+main	aaco/views.py	/^def main(request):$/;"	f	line:4
+main	event/views.py	/^def main(request):$/;"	f	line:7
+model	event/forms.py	/^        model = Comment$/;"	v	line:29	class:CommentForm.Meta
+model	event/forms.py	/^        model = Post$/;"	v	line:6	class:PostForm.Meta
+model_name	event/migrations/0001_initial.py	/^            model_name='comment',$/;"	v	line:35	class:Migration
+name	event/apps.py	/^    name = 'event'$/;"	v	line:5	class:EventConfig
+name	event/migrations/0001_initial.py	/^            name='Comment',$/;"	v	line:16	class:Migration
+name	event/migrations/0001_initial.py	/^            name='Post',$/;"	v	line:25	class:Migration
+name	event/migrations/0001_initial.py	/^            name='post',$/;"	v	line:36	class:Migration
+new	event/views.py	/^def new(request):$/;"	f	line:16
+operations	event/migrations/0001_initial.py	/^    operations = [$/;"	v	line:14	class:Migration
+post	event/models.py	/^    post = models.ForeignKey(Post, related_name = 'comment', on_delete=models.CASCADE)$/;"	v	line:17	class:Comment
+postcreate	event/views.py	/^def postcreate(request):$/;"	f	line:19
+show	event/views.py	/^def show(request, post_id):$/;"	f	line:11
+show_by_region	aaco/views.py	/^def show_by_region(request):$/;"	f	line:16
+show_by_subject	aaco/views.py	/^def show_by_subject(request):$/;"	f	line:19
+signup	aaco/views.py	/^def signup(request):$/;"	f	line:7
+subscribe	aaco/views.py	/^def subscribe(request):$/;"	f	line:22
+summary	event/models.py	/^    def summary(self):$/;"	m	line:12	class:Post
+title	event/models.py	/^    title = models.CharField(max_length=200)$/;"	v	line:4	class:Post
+updated_at	event/models.py	/^    updated_at = models.DateTimeField(auto_now=True)$/;"	v	line:20	class:Comment
+updated_at	event/models.py	/^    updated_at = models.DateTimeField(auto_now=True)$/;"	v	line:7	class:Post
+urlpatterns	aaco/urls.py	/^urlpatterns = [$/;"	v	line:22
+widgets	event/forms.py	/^        widgets = {$/;"	v	line:9	class:PostForm.Meta

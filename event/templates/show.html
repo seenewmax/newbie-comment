@@ -1,0 +1,26 @@
+
+
+<a href="{% url 'main' %}">뒤로 가기</a>
+<h3>제목 : {{ post.title }}</h3>
+<h5>작성 날짜 : {{ post.created_at }}</h5>
+<h5>수정 날짜 : {{ post.updated_at }}</h5>
+<p>{{ post.content }}</p>
+
+<br>
+{% for comment in post.comment.all %}
+    <h5>댓글 작성 일자 : {{ comment.created_at }}</h5>
+    <h5>댓글 내용 : {{ comment.content }}</h5>
+{% empty %}
+    <p>작성된 댓글이 없습니다.</p>
+{% endfor %}
+
+<a href="{% url 'commentcreate' post.id %}">댓글쓰기</a>
+<form method='POST'>
+    {% csrf_token %}
+    <tale>
+        {{ form.as_table }}
+    </tale>
+    <br>
+    <input type="submit" value="댓글등록">
+</form>
+<br>
